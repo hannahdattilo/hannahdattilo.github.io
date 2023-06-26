@@ -1,4 +1,5 @@
-remote_theme: jekyll-theme-chirpy
+#remote_theme: jekyll-theme-chirpy
+theme: jekyll-theme-cayman
 title: Hannah Dattilo 
 description: Webpage for Hannah Dattilo, Electrical Engineering PhD student at Vanderbilt University
 
