@@ -5,3 +5,6 @@ description: Webpage for Hannah Dattilo, Electrical Engineering PhD student at V
 baseurl: "/hannahdattilo/hannahdattilo.github.io" # the subpath of your site, e.g. /blog
 url: "https://github.com" # the base hostname & protocol for your site, e.g. http://example.com
 
+plugins:
+  - jekyll-feed
+  - jekyll-timeago
