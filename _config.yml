@@ -6,6 +6,7 @@ plugins:
 
 # title: Hannah Dattilo 
 title: hi
+project-name: hannah dattilo 
 description: Webpage for Hannah Dattilo, Electrical Engineering PhD student at Vanderbilt University
 
 #baseurl: "/hannahdattilo/hannahdattilo.github.io" # the subpath of your site, e.g. /blog
