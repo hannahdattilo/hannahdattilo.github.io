@@ -46,6 +46,24 @@
 											<h2>Hello!</h2>
 										</header>
 										<p>My name is Hannah Dattilo and I am a fourth year PhD Candidate in Electrical Engineering at Vanderbilt University working with Dr. Robert Reed. I received my B.S in Physics from Oglethorpe University in Atlanta, GA and my M.S. in Physics from Fisk University in Nashville, TN through the Fisk-Vanderbilt Master's-to-PhD Bridge program. </p>
+                                        
+                                        <body>
+
+                                            <button id="myButton">Click Me!</button>
+
+                                            <script>
+                                                const myButton = document.getElementById('myButton');
+
+                                                setInterval(() => {
+                                                    if (myButton.style.visibility === 'hidden') {
+                                                        myButton.style.visibility = 'visible';
+                                                    } else {
+                                                        myButton.style.visibility = 'hidden';
+                                                }
+                                                }, 500); // Blinks every 500 milliseconds (0.5 seconds)
+                                            </script>
+
+                                        </body>
 <!--
 										<ul class="actions">
 											<li><a href="generic.html" class="button">Learn More</a></li>
